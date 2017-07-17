@@ -1,0 +1,143 @@
+@media only screen and (max-width: 760px) {
+    #container {
+        display: none;
+    }
+    #content {
+        display: block;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+#content{
+	min-width: 320px;
+}
+.header span{
+	font-size: 1rem;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	background: #fff;
+	overflow: hidden;
+	min-width: 320px;
+}
+ .header .warrper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 47px;
+	border-bottom: 1px solid #f3f3f3;
+   box-sizing: border-box;
+
+}
+ .header .warrper h1{
+display: inline-block;
+	background: url(../images/dbs.png) no-repeat;
+	background-size: cover;
+	height:2.2rem;
+	width: 4.6rem;
+	font-size: 0;
+	color: #00b600;
+
+}
+ .header .warrper nav li{
+display: inline-block;
+	font-size: 1.5rem;
+	margin-right: 15px;
+}
+ .header .warrper .header-logo{
+	position: relative;
+	top: 8px;
+	display: inline-block;
+	background: url(../images/dbs.1.png);
+	width: 2.5rem;
+	height: 1.9rem;
+	background-size: cover;
+}
+.header-classify{
+width: 100%;
+margin-top: 6rem;
+display: flex;
+}
+.warrper{
+	margin: 0 auto;
+	width: 80%;
+}
+.warrper .classify-btn{
+	display: inline-block;
+    width: 49%;
+    text-align: center;
+    padding: 10px 0;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+}
+.warrper .classify-btn a{
+	    color: #494949;
+    font-size: 2rem;
+    line-height: 3rem;
+    border-radius: 2px;
+    display: block;
+}
+.section{
+width: 100%;
+margin-top: 2rem;
+display: flex;
+overflow: hidden;
+}
+.warrper .section-content{
+	float: left;
+width: 65%;
+	margin-right: 10px;
+	margin-bottom: 15px;
+
+}
+.warrper .section-logo{
+	float: right;
+	width: 30%;
+}
+
+.warrper .section-content h3{
+	 color: #494949;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+    text-align: justify;
+}
+.warrper .section-content p{
+	 color: #aaa;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: justify
+}
+.author{
+	clear: both;
+	font-size: 1.2rem;
+	color: #ccc;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.section-logo img{
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
